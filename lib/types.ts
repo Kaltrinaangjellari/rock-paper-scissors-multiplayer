@@ -28,3 +28,9 @@ export interface GameOverData {
 export interface LobbyUpdate {
   playersWaiting: number;
 }
+
+export interface EventCard {
+  emoji: string;
+  name: string;
+  description: string;
+}
