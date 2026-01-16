@@ -2,6 +2,14 @@
 
 A real-time multiplayer Rock Paper Scissors game built with Next.js 14, React, and Socket.io.
 
+## Live Demo
+
+🎮 **Play now**: [https://rock-paper-scissors-multiplayer-blue.vercel.app](https://rock-paper-scissors-multiplayer-blue.vercel.app)
+
+## Repository
+
+📦 **GitHub**: [https://github.com/Kaltrinaangjellari/rock-paper-scissors-multiplayer](https://github.com/Kaltrinaangjellari/rock-paper-scissors-multiplayer)
+
 ## Features
 
 - Real-time multiplayer gameplay
@@ -59,6 +67,27 @@ npm run dev
 ## Development
 
 The custom server (`server.js`) handles both the Next.js application and Socket.io connections, providing seamless real-time communication.
+
+## Deployment
+
+### Deploy to Vercel
+
+1. Install Vercel CLI:
+```bash
+npm install -g vercel
+```
+
+2. Login to Vercel:
+```bash
+vercel login
+```
+
+3. Deploy:
+```bash
+vercel --prod
+```
+
+The project is configured to work seamlessly with Vercel's deployment platform.
 
 ## Production Build
 
